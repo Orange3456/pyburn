@@ -14,7 +14,7 @@ graph TD
     B --> C[Read Post-fire NIR and SWIR bands]
     C --> D[Calculate Pre-fire NBR]
     D --> E[Calculate Post-fire NBR]
-    E --> F[Calculate dNBR (Post-fire NBR - Pre-fire NBR)]
+    E --> F[Calculate dNBR - Post-fire NBR minus Pre-fire NBR]
     F --> G[Visualize Pre-fire NBR]
     G --> H[Visualize Post-fire NBR]
     H --> I[Visualize dNBR]
