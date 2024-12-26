@@ -24,10 +24,3 @@ graph TD
     L --> M[Plot Burn Severity Map Using Reclassified dNBR]
     M --> N[Calculate Burnt Area by Severity Class]
     N --> O[End]
-
-    %% Additional details for each step
-    B -.-> |"Uses gdal.ReadBand"| P[Read Band Image]
-    D -.-> |"Uses NIR and SWIR bands"| Q[Calculate NBR]
-    F -.-> |"Uses NBR of pre-fire and post-fire"| R[Calculate dNBR]
-    M -.-> |"Reclassifies values into severity levels"| S[Reclassify Array]
-
