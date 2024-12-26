@@ -1,0 +1,22 @@
+name: gsp_pyburn_env  # The name of your conda environment
+channels:
+  - conda-forge      # Conda-forge channel (for many Python packages)
+  - defaults         # Default channel for other packages
+dependencies:
+  - python=3.9        # The version of Python your project uses
+  - numpy             # NumPy, required for array operations
+  - scipy             # SciPy, needed for scientific computing
+  - matplotlib        # Matplotlib, used for plotting
+  - pandas            # Pandas, for data manipulation
+  - rasterio          # Rasterio, for working with raster data
+  - geopandas         # Geopandas, for spatial data manipulation
+  - fiona             # Fiona, for reading/writing geospatial data
+  - shapely           # Shapely, for geometric operations
+  - libgdal           # Explicitly include libgdal for JP2 support
+  - gdal              # GDAL, for geospatial data handling
+  - jupyterlab        # JupyterLab, for notebooks and interactive work
+  - pip               # Pip to handle additional Python dependencies
+
+  # Install pyburn locally (for our project)
+  - pip:
+    - ./              # Install from the local folder where setup.py is located
