@@ -50,15 +50,15 @@ To set up the environment and install the necessary dependencies, follow the ste
 
 #### Step 1: Create the Conda Environment
 Ensure that you have Anaconda installed. Then, in the Anaconda Prompt, navigate to the folder where environment.yml is located and run:
-conda env create -f environment.yml
+#### conda env create -f environment.yml
 
 #### Step 2: Activate the Conda Environment
 Activate the newly created environment:
-conda activate gsp_pyburn_env
+#### conda activate gsp_pyburn_env
 
 #### Step 3: Install the PyBurn Library
 Now install the PyBurn library:
-pip install .
+#### pip install .
 
 ### 4. Configure Paths in pyburn.py
 After installation, you need to update the paths to the satellite images and shapefiles in the pyburn.py script.
@@ -80,30 +80,30 @@ In pyburn.py, update the following variables:
 
 # Paths to Sentinel-2 images (pre-fire and post-fire)
 
-path_prefire_nir = r"C:\path\to\your\pre_fire_nir_image.jp2"
+#### path_prefire_nir = r"C:\path\to\your\pre_fire_nir_image.jp2"
 
-path_prefire_swir = r"C:\path\to\your\pre_fire_swir_image.jp2"
+#### path_prefire_swir = r"C:\path\to\your\pre_fire_swir_image.jp2"
 
-path_postfire_nir = r"C:\path\to\your\post_fire_nir_image.jp2"
+#### path_postfire_nir = r"C:\path\to\your\post_fire_nir_image.jp2"
 
-path_postfire_swir = r"C:\path\to\your\post_fire_swir_image.jp2"
+#### path_postfire_swir = r"C:\path\to\your\post_fire_swir_image.jp2"
 
 # Path to shapefile
 
-infile_shp = r"C:\path\to\your\shapefile\crotene.shp"
+#### infile_shp = r"C:\path\to\your\shapefile\crotene.shp"
 
 # Path for the reprojected shapefile
 
-outfile_shp = r"C:\path\to\save\reprojected_shapefile.shp"
+#### outfile_shp = r"C:\path\to\save\reprojected_shapefile.shp"
 
 # Output filenames
 
-filename = r"C:\path\to\save\output_dnbr.tiff"
+#### filename = r"C:\path\to\save\output_dnbr.tiff"
 
-filename2 = r"C:\path\to\save\output_clipped_dnbr.tiff"
+#### filename2 = r"C:\path\to\save\output_clipped_dnbr.tiff"
 
-fname = r"C:\path\to\save\burn_severity_map.png"
+#### fname = r"C:\path\to\save\burn_severity_map.png"
 
 ### 5. Running the Script
 Once the paths are configured, you can run the pyburn.py script in your Anaconda Prompt by navigating to the directory containing the script and executing:
-python pyburn.py
+#### python pyburn.py
