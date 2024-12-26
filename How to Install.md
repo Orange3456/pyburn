@@ -79,20 +79,29 @@ Example Configuration
 In pyburn.py, update the following variables:
 
 # Paths to Sentinel-2 images (pre-fire and post-fire)
+
 path_prefire_nir = r"C:\path\to\your\pre_fire_nir_image.jp2"
+
 path_prefire_swir = r"C:\path\to\your\pre_fire_swir_image.jp2"
+
 path_postfire_nir = r"C:\path\to\your\post_fire_nir_image.jp2"
+
 path_postfire_swir = r"C:\path\to\your\post_fire_swir_image.jp2"
 
 # Path to shapefile
+
 infile_shp = r"C:\path\to\your\shapefile\crotene.shp"
 
 # Path for the reprojected shapefile
+
 outfile_shp = r"C:\path\to\save\reprojected_shapefile.shp"
 
 # Output filenames
+
 filename = r"C:\path\to\save\output_dnbr.tiff"
+
 filename2 = r"C:\path\to\save\output_clipped_dnbr.tiff"
+
 fname = r"C:\path\to\save\burn_severity_map.png"
 
 ### 5. Running the Script
