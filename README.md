@@ -11,7 +11,7 @@ The script follows a sequence of steps to process Sentinel-2 satellite images (p
 ### Flowchart
 
 ```mermaid
-graph LR
+graph TD
     A[Start] --> B[Read Pre-fire NIR and SWIR bands]
     B --> C[Read Post-fire NIR and SWIR bands]
     C --> D[Calculate Pre-fire NBR]
@@ -26,5 +26,4 @@ graph LR
     L --> M[Plot Burn Severity Map Using Reclassified dNBR]
     M --> N[Calculate Burnt Area by Severity Class]
     N --> O[End]
-
 
