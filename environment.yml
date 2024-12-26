@@ -1,9 +1,9 @@
-name: gsp_pyburn_env  # The name of your conda environment
+name: gsp_pyburn_env  # The name of our conda environment
 channels:
   - conda-forge      # Conda-forge channel (for many Python packages)
   - defaults         # Default channel for other packages
 dependencies:
-  - python=3.9        # The version of Python your project uses
+  - python=3.9        # The version of Python our project uses
   - numpy             # NumPy, required for array operations
   - scipy             # SciPy, needed for scientific computing
   - matplotlib        # Matplotlib, used for plotting
