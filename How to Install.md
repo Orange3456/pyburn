@@ -31,7 +31,7 @@ You can either clone the repository using Git or directly download the folder.
 #### Option 1: Clone the Repository
 #### Option 2: Download the ZIP
 You can download the repository as a ZIP file from GitHub. Simply extract the contents to your local machine.
-Link: https://drive.google.com/file/d/1k57vvH_QJcmheEhGw5cTtyAMncWLQ_hL/view?usp=drive_link
+Link: https://drive.google.com/file/d/1jCk5TuEMyuqQDUeRsNSNkULO-UYhpT3O/view?usp=drive_link
 
 ### 2. Download Satellite Images and Shapefiles
 Due to the large size of the satellite images, they are hosted on Google Drive. You can download the images and shapefiles from the link below:
