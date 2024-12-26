@@ -5,8 +5,8 @@ setup(
     version="0.1",  # Version of our package
     description="A tool for calculating Burn Severity using Sentinel-2 imagery",  # Short description of our package
     author="Team pyburn",  # our name or the author's name
-    author_email="your.email@example.com",  # our email address
-    url="https://github.com/yourusername/pyburn",  # The URL to our project (hosted on GitHub)
+    author_email="praveenkumar.saminathan@mail.polimi.it",  # our email address
+    url="https://github.com/Orange3456/pyburn",  # The URL to our project (hosted on GitHub)
     packages=find_packages(),  # Automatically find all packages in the current directory
     install_requires=[  # Any external packages our package depends on
         "numpy",
