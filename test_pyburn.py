@@ -1,5 +1,3 @@
-import warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning)
 import unittest
 import numpy as np
 import os
