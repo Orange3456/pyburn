@@ -106,4 +106,4 @@ In pyburn.py, update the following variables:
 
 ### 5. Running the Script
 Once the paths are configured, you can run the pyburn.py script in your Anaconda Prompt by navigating to the directory containing the script and executing:
-#### python pyburn.py
+#### python -m unittest test_pyburn.py
