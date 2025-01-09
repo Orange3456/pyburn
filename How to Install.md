@@ -61,7 +61,7 @@ Now install the PyBurn library:
 #### pip install .
 
 ### 4. Configure Paths in pyburn.py
-After installation, you need to update the paths to the satellite images and shapefiles in the pyburn.py script.
+After installation, you need to update the paths to the satellite images and shapefiles in the jupyter lab while testing with the data.
 
 Pre-fire NIR and SWIR paths
 Update the paths to the pre-fire NIR and SWIR images.
@@ -76,7 +76,7 @@ Output Paths
 Set the paths for the output files where you want to save the processed files.
 
 Example Configuration
-In pyburn.py, update the following variables:
+In jupyter lab, update the following variables:
 
 # Paths to Sentinel-2 images (pre-fire and post-fire)
 
@@ -105,5 +105,21 @@ In pyburn.py, update the following variables:
 #### fname = r"C:\path\to\save\burn_severity_map.png"
 
 ### 5. Running the Script
-Once the paths are configured, you can run the test_pyburn.py script in your Anaconda Prompt by navigating to the directory containing the script and executing:
-#### python -m unittest test_pyburn.py
+You can also test the library functions of pyburn.py by running the test_pyburn.py script in your Anaconda Prompt by navigating to the directory containing the script and executing:
+#### python -m unittest test_pyburn.py -v
+As we can see all the below functions will run correctly:
+test_array2raster (test_pyburn.TestPyburn) ... ok
+test_clip_raster (test_pyburn.TestPyburn) ... ok
+test_dnbr (test_pyburn.TestPyburn)
+Test the dNBR calculation. ... ok
+test_nbr (test_pyburn.TestPyburn)
+Test the NBR calculation. ... ok
+test_read_band_image (test_pyburn.TestPyburn) ... ok
+test_reclassify (test_pyburn.TestPyburn) ... ok
+test_reproject_shp_gdal (test_pyburn.TestPyburn)
+Test the reproject_shp_gdal function. ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.458s
+
+OK
