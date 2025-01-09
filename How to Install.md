@@ -107,15 +107,23 @@ In jupyter lab, update the following variables:
 ### 5. Running the Script
 You can also test the library functions of pyburn.py by running the test_pyburn.py script in your Anaconda Prompt by navigating to the directory containing the script and executing:
 #### python -m unittest test_pyburn.py -v
+
 As we can see all the below functions will run correctly:
+
 test_array2raster (test_pyburn.TestPyburn) ... ok
+
 test_clip_raster (test_pyburn.TestPyburn) ... ok
+
 test_dnbr (test_pyburn.TestPyburn)
 Test the dNBR calculation. ... ok
+
 test_nbr (test_pyburn.TestPyburn)
 Test the NBR calculation. ... ok
+
 test_read_band_image (test_pyburn.TestPyburn) ... ok
+
 test_reclassify (test_pyburn.TestPyburn) ... ok
+
 test_reproject_shp_gdal (test_pyburn.TestPyburn)
 Test the reproject_shp_gdal function. ... ok
 
